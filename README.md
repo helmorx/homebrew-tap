@@ -1,6 +1,6 @@
 # HELMOR Homebrew Tap
 
-Homebrew tap for HELMOR Agent OS.
+Homebrew tap for HELMOR Agent.
 
 ## Install
 
@@ -8,7 +8,7 @@ Homebrew tap for HELMOR Agent OS.
 brew install helmorx/tap/helmoragent
 ```
 
-The formula builds HELMOR Agent OS from the tagged source archive and installs the CLI as:
+The formula builds HELMOR Agent from the tagged source archive and installs the CLI as:
 
 ```bash
 helmor
