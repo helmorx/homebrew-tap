@@ -1,18 +1,28 @@
-# Helmorx Tap
+# HELMOR Homebrew Tap
 
-## How do I install these formulae?
+Homebrew tap for HELMOR Agent OS.
 
-`brew install helmorx/tap/<formula>`
+## Install
 
-Or `brew tap helmorx/tap` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "helmorx/tap"
-brew "<formula>"
+```bash
+brew install helmorx/tap/helmoragent
 ```
 
-## Documentation
+The formula builds HELMOR Agent OS from the tagged source archive and installs the CLI as:
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+```bash
+helmor
+```
+
+## Project
+
+- Repository: https://github.com/helmorx/agent-os
+- Website: https://helmor.io
+- X: https://x.com/helmorlabs
+
+## Verify
+
+```bash
+helmor version
+helmor doctor
+```
